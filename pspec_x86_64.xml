@@ -1,0 +1,67 @@
+<PISI>
+    <Source>
+        <Name>python-pyside-tools</Name>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <PartOf>programming.python</PartOf>
+        <Summary xml:lang="en">PySide development tools (pyuic and pyrcc)</Summary>
+        <Description xml:lang="en">PySide development tools (pyuic and pyrcc)
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>python-pyside-tools</Name>
+        <Summary xml:lang="en">PySide development tools (pyuic and pyrcc)</Summary>
+        <Description xml:lang="en">PySide development tools (pyuic and pyrcc)
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/Compiler/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/Compiler/compiler.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/Compiler/indenter.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/Compiler/misc.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/Compiler/proxy_type.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/Compiler/qobjectcreator.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/Compiler/qtproxies.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/driver.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/exceptions.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/icon_cache.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/objcreator.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/port_v2/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/port_v2/as_string.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/port_v2/ascii_upper.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/port_v2/invoke.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/port_v2/load_plugin.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/port_v2/proxy_base.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/port_v2/string_io.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/port_v3/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/port_v3/as_string.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/port_v3/ascii_upper.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/port_v3/invoke.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/port_v3/load_plugin.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/port_v3/proxy_base.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/port_v3/string_io.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/properties.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/pyside-uic.1</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/uiparser.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/widget-plugins/phonon.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/widget-plugins/qtdeclarative.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/widget-plugins/qtwebkit.py</Path>
+            <Path fileType="man">/usr/share/man</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-10-21</Date>
+            <Version>0.2.15</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>

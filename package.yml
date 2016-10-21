@@ -1,0 +1,23 @@
+name       : python-pyside-tools
+version    : 0.2.15
+release    : 1
+source     :
+    - https://github.com/PySide/Tools/archive/0.2.15.tar.gz : 8a7fe786b19c5b2b4380aff0a9590b3129fad4a0f6f3df1f39593d79b01a9f74
+license    : GPL-2.0
+component  : programming.python
+summary    : PySide development tools (pyuic and pyrcc)
+description: |
+    PySide development tools (pyuic and pyrcc)
+builddeps  :
+    - pkgconfig(pyside)
+    - pkgconfig(QtCore)
+rundeps    :
+    - python-pyside
+setup      : |
+    %cmake \
+        -DQT_QMAKE_EXECUTABLE=/usr/bin/qmake-qt4 \
+        -DQT_RCC_EXECUTABLE=/usr/bin/rcc-qt4 .
+build      : |
+    %make
+install    : |
+    %make_install
