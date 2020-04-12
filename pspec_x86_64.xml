@@ -2,15 +2,15 @@
     <Source>
         <Name>python-pyside-tools</Name>
         <Packager>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>F. von Gellhorn</Name>
+            <Email>flinux@vongellhorn.ch</Email>
         </Packager>
         <License>GPL-2.0</License>
         <PartOf>programming.python</PartOf>
         <Summary xml:lang="en">PySide development tools (pyuic and pyrcc)</Summary>
         <Description xml:lang="en">PySide development tools (pyuic and pyrcc)
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>python-pyside-tools</Name>
@@ -19,7 +19,9 @@
 </Description>
         <PartOf>programming.python</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="executable">/usr/bin/pyside-lupdate</Path>
+            <Path fileType="executable">/usr/bin/pyside-rcc</Path>
+            <Path fileType="executable">/usr/bin/pyside-uic</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/Compiler/__init__.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/Compiler/compiler.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/Compiler/indenter.py</Path>
@@ -52,16 +54,18 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/widget-plugins/phonon.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/widget-plugins/qtdeclarative.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/pysideuic/widget-plugins/qtwebkit.py</Path>
-            <Path fileType="man">/usr/share/man</Path>
+            <Path fileType="man">/usr/share/man/man1/pyside-lupdate.1</Path>
+            <Path fileType="man">/usr/share/man/man1/pyside-rcc.1</Path>
+            <Path fileType="man">/usr/share/man/man1/pyside-uic.1</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2016-10-21</Date>
+        <Update release="2">
+            <Date>2020-04-12</Date>
             <Version>0.2.15</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>F. von Gellhorn</Name>
+            <Email>flinux@vongellhorn.ch</Email>
         </Update>
     </History>
 </PISI>
